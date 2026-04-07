@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+openai
+matplotlib
+seaborn
+scikit-learn
+kaggle
