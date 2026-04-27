@@ -10,7 +10,7 @@ This project focuses on combining Natural Language Processing (NLP), vector-base
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The goal of this project is to explore how conversational AI systems can be used to improve movie search and recommendation. The system retrieves relevant movies from a structured dataset and generates human-readable responses.
 
@@ -18,7 +18,7 @@ The approach follows a Retrieval-Augmented Generation (RAG) pipeline, where sema
 
 ---
 
-## 🧠 System Workflow
+##  System Workflow
 
 The system follows this pipeline:
 
@@ -31,7 +31,7 @@ User Query
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 This project addresses the following key objectives:
 
@@ -49,7 +49,7 @@ This project addresses the following key objectives:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 MovieMate/
@@ -64,7 +64,7 @@ MovieMate/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The project uses the IMDb Top 1000 Movies dataset sourced from Kaggle.
 
@@ -83,7 +83,7 @@ This dataset is used to build a structured representation of movies for retrieva
 
 ---
 
-## 🛠️ Technical Approach
+## Technical Approach
 
 ### 1. Data Preprocessing
 
@@ -118,7 +118,7 @@ This dataset is used to build a structured representation of movies for retrieva
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repository
 
@@ -154,7 +154,7 @@ streamlit run app.py
 
 ---
 
-## 🔑 API Key (Optional)
+## API Key (Optional)
 
 The chatbot uses an API key for generating conversational responses.
 
@@ -171,7 +171,7 @@ export GROQ_API_KEY=your_api_key
 
 ---
 
-## 📋 Project Deliverables
+##  Project Deliverables
 
 This project satisfies the following requirements :
 
@@ -185,13 +185,7 @@ This project satisfies the following requirements :
 
 ---
 
-## 📏 Evaluation
-
-The system is evaluated based on retrieval quality and relevance of results. Basic evaluation includes checking whether retrieved movies match the intent of user queries.
-
----
-
-## ⚠️ Limitations
+##  Limitations
 
 * Limited to IMDb Top 1000 dataset
 * No persistent personalization
@@ -199,17 +193,3 @@ The system is evaluated based on retrieval quality and relevance of results. Bas
 * LLM responses depend on API availability
 
 ---
-
-## 🚀 Future Work
-
-* Add larger and more recent datasets
-* Improve ranking with re-ranking models
-* Add user preference tracking
-* Enhance UI and interaction
-
----
-
-## 👩‍💻 Author
-
-Arushi Khethavath
-AI/NLP Assignment
